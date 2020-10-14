@@ -6,7 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.systemk.mainlayout_rv.databinding.RecyclerMainBinding
 
-class MainAdapter(private val mList: ArrayList<MainItem>
+class MainAdapter(private val mList: List<MainItem>
 ) : RecyclerView.Adapter<MainAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder =

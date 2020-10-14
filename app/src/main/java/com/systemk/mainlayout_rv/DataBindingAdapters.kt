@@ -5,6 +5,7 @@ import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 
 class DataBindingAdapters {
+
     @BindingAdapter("imageResource")
     fun setImageUri(view: ImageView, imageUri: String?) {
         if (imageUri == null) {
